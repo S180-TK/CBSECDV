@@ -882,7 +882,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verified",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -896,18 +896,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verified"
+              "Data Flow"
             ],
-            "id": "1a686866-9df7-4a5e-867e-4e86b3790070",
+            "id": "3705f7d5-bd08-47db-933a-0196fb3e5d2e",
             "source": {
-              "x": 520,
-              "y": 150
+              "x": 430,
+              "y": 30
             },
             "target": {
-              "x": 520,
+              "x": 430,
               "y": 310
-            },
-            "vertices": []
+            }
           }
         ]
       }
