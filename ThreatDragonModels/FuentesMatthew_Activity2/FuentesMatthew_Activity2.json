@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 530,
-              "y": 50.00000000000006
+              "y": 60.00000000000006
             },
             "size": {
               "width": 90,
@@ -140,7 +140,7 @@
           {
             "position": {
               "x": 947,
-              "y": 50.00000000000006
+              "y": 60.00000000000006
             },
             "size": {
               "width": 90,
@@ -754,14 +754,49 @@
             ],
             "id": "b5fd64a1-0f07-4942-8981-13f6f388bc8c",
             "source": {
-              "x": 610,
-              "y": 220
+              "x": 620,
+              "y": 80
             },
             "target": {
               "x": 950,
-              "y": 220
+              "y": 80
             },
-            "vertices": []
+            "vertices": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
