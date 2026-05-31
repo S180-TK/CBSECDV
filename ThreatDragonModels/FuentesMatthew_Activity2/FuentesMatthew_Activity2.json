@@ -1080,10 +1080,11 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Feedback Comments Saved",
+              "name": "User Sends User Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1097,28 +1098,31 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Feedback Comments Saved"
+              "User Sends User Credentials"
             ],
             "id": "dcb01952-1855-42ed-ab97-e529f85c7ad5",
             "source": {
-              "x": 540,
-              "y": 470
+              "x": 530,
+              "y": 330
             },
             "target": {
               "x": 200,
-              "y": 470
+              "y": 330
             },
             "vertices": [
               {
+                "x": 510,
+                "y": 330
+              },
+              {
                 "x": 412,
-                "y": 471
+                "y": 331
               },
               {
                 "x": 302,
-                "y": 471
+                "y": 331
               }
-            ],
-            "zIndex": 11
+            ]
           }
         ]
       }
