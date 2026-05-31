@@ -826,10 +826,11 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Sends User Credentials",
+              "name": "Auth\nVerification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -843,24 +844,18 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Sends User Credentials"
+              "Auth\nVerification"
             ],
-            "id": "a7053a0f-72f5-4859-863c-6665011b3ba0",
+            "id": "e087bd32-f575-4948-bee8-196a6af91d5e",
             "source": {
-              "x": 192,
-              "y": 234
+              "x": 270,
+              "y": 280
             },
             "target": {
-              "x": 490,
-              "y": 240
+              "x": 270,
+              "y": 60
             },
-            "vertices": [
-              {
-                "x": 420,
-                "y": 234
-              }
-            ],
-            "zIndex": 11
+            "vertices": []
           }
         ]
       }
