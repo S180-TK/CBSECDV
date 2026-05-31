@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "923cdc96-9839-4248-ac3b-5785e784ab50",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Authorization\nProvider",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "3a12a435-dadc-4035-9ed0-43b88411c5bb",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "LDAP",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "041e39e6-dbaa-49de-9dde-4c95e3f550bc",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web\nApplication",
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +482,6 @@
               ]
             },
             "id": "8b36cb0e-953a-47e4-89c8-4311b5182a2e",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "SQL\nDatabase",
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "763eb79a-aa23-47fc-8db2-8449429565ce",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Browser\nClient",
@@ -653,15 +653,16 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "1430422d-539e-47a4-bac8-281aa0806b88",
+            "id": "7f7a06e2-d1c7-4652-a7a5-d9606fa87dfe",
             "source": {
-              "x": 589,
-              "y": 335
+              "x": 600,
+              "y": 250
             },
             "target": {
-              "x": 689,
-              "y": 435
-            }
+              "x": 720,
+              "y": 250
+            },
+            "vertices": []
           }
         ]
       }
